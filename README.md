@@ -21,3 +21,12 @@ Next, inside the Mininet CLI, change the IP addresses and static routes of the h
 ```
 mininet> source ipconf
 ```
+
+## To-do list:
+* 
+
+## Status
+Project is: in progress.
+
+## Contact
+Created by [Rahil Gandotra](mailto:rahil.gandotra@colorado.edu) - feel free to contact me!
