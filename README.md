@@ -34,7 +34,7 @@ Inside the Mininet CLI, change the IP addresses and static routes of the hosts u
 mininet> source ipconf
 ```
 
-Next, set up the control-plane infrastructure of Ryu SDN controller using -
+Next, in another terminal, set up the control-plane infrastructure of Ryu SDN controller using -
 ```
 $ bash controlplane_setup.sh
 ```
