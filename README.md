@@ -39,7 +39,15 @@ Next, in another terminal, set up the control-plane infrastructure of Ryu SDN co
 $ bash controlplane_setup.sh
 ```
 
+Finally, in another terminal, start the GPF-Knob app using -
+```
+python3 GPF_knob.py
+```
 
+To check the dynamic behavior of the app in different dial modes, use the app knob_dynamic_data.py present in the /data directory of the NetPow app. This app configures different energy consumption and network performance parameters on the simulated agents to test different knob modes. Once this app starts, press Enter after every iteration of the GPF-Knob app to reconfigure the energy/nw-perf parameters before the next iteration.
+
+
+Test the end-to-end path selected by GPF by running a traceroute between hosts 1 and 2 inside the Mininet CLI.
 
 ## To-do list:
 * 
